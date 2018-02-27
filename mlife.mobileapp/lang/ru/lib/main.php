@@ -1,0 +1,5 @@
+<?
+$MESS["MLIFE_ADMIN_LIST_SELECT_EMPTY"] = "Не указано";
+$MESS["MLIFE_ADMIN_LIST_SELECT_Y"] = "да";
+$MESS["MLIFE_ADMIN_LIST_SELECT_N"] = "нет";
+?>

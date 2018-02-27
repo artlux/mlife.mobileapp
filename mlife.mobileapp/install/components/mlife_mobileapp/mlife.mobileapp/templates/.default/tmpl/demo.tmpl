@@ -1,0 +1,39 @@
+<div class="view view-main">
+<div class="page">
+	  <div class="navbar theme-dark">
+		<div class="navbar-inner bg-color-black">
+			<div class="left"><a class="color-white panel__open__left" onclick="window.app.panel.open('left');return false;"> <i class="f7-icons f7icon-menu"></i></a></div>
+			<div class="center" style="color:#ffffff;"><img src="img/logo_rasp.png" style="height:34px;width:auto;" class=""></div>
+			<div class="right"></div>
+		</div>
+	  </div>
+	  <div class="toolbar theme-dark">
+		<div class="toolbar-inner bg-color-black">
+			<div class="left"></div>
+			<div class="center"><a class="color-white show__settings"> <i class="f7-icons f7icon-settings"></i></a></div>
+			<div class="right"><a class="color-white panel__open__right" onclick="window.app.panel.open('right');return false;"> <i class="f7-icons f7icon-favorites"></i></a></div>
+		</div>
+	  </div>
+	  <div class="page-content">
+		
+	  
+<div class="content-block-title spaceNormal no-margin">Дема страница offline:</div>
+
+	<div class="content-block-title title-marsh" style="margin-top:15px;clear:both;">Заголовок</div>
+	<div class="list links-list no-margin" style="clear: both;">
+		<ul>
+		{{#each this.list}}
+			<li>
+			<a href="/demo/" class="item-link item-content padding_5_15 spaceNormal">
+				{{this["0"]}}, {{this["1"]}}
+			</a>
+			</li>
+		{{/each}}
+		</ul>
+	</div>
+
+	<div class="block"></div>
+
+</div>
+	</div>
+	</div>
